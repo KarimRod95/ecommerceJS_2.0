@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nombre": "iPhone",
+        "precio": 600
+    },
+    {
+        "id": 2,
+        "nombre": "iPad",
+        "precio": 200
+    },
+    {
+        "id": 3,
+        "nombre": "Airpods",
+        "precio": 100
+    },
+    {
+        "id": 4,
+        "nombre": "Macbook",
+        "precio": 1200
+    },
+    {
+        "id": 5,
+        "nombre": "AppleWatch",
+        "precio": 250
+    },
+    {
+        "id": 6,
+        "nombre": "Samsung S22",
+        "precio": 600
+    },
+    {
+        "id": 7,
+        "nombre": "Nokia 1100",
+        "precio": 500
+    },
+    {
+        "id": 8,
+        "nombre": "Smart TV",
+        "precio": 800
+    },
+    {
+        "id": 9,
+        "nombre": "GoPro 10",
+        "precio": 200
+    },
+    {
+        "id": 10,
+        "nombre": "Digital Camera",
+        "precio": 550
+    }
+]
