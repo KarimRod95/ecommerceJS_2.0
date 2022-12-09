@@ -90,24 +90,8 @@ botonIngresar.onclick = (e) => {
                 const producto = productosArray.find(
                     (prod) => prod.id === parseInt(boton.id)
                 )
-
-
-
-                const productoCarrito = {
-                    id: id,
-                    nombre: nombre,
-                    precio: precio,
-                    cantidad: 1
-                }
-
-                const indexCarrito = carrito.findIndex(prod => prod.id === producto.id)
-                if (indexCarrito === -1) {
-                    carrito.push(productoCarrito)
-                } else {
-                    carrito[indexCarrito].cantidad += 1
-                }
-
-
+                console.log(producto)
+                carrito.push(producto);
                 console.log(carrito)
             }
         })
@@ -118,7 +102,7 @@ botonIngresar.onclick = (e) => {
         btnCalcular.setAttribute('id', 'btnCalcular')
         btnCalcular.innerText = 'FINALIZAR COMPRA'
         btnCalcular.onclick = () => {
-            const totalCompra = carrito.map(prod => prod.precio * prod.cantidad).reduce((elem1, elem2) => elem1 + elem2)
+            const totalCompra = carrito.map(prod => prod.precio * 1).reduce((elem1, elem2) => elem1 + elem2)
             console.log(totalCompra)
             Swal.fire(
                 'Gracias por tu compra!',
